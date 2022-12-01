@@ -1,2 +1,2 @@
-inmobiliaria-front/node_modules
-inmobiliaria-back/node_modules
+**/node_modules
+inmobiliaira-back/.env
