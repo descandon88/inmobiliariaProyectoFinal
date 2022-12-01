@@ -1,0 +1,25 @@
+.contFooter{
+    background-color:#F5F5F5 ;
+    border-radius: 10rem 0 0 0;
+    text-align: center;
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    height: 15rem;
+    justify-content: center;
+    
+    
+}
+.footerList{
+display: flex;
+gap: 20rem;
+list-style: none;
+color: black;
+}
+.spanFooter{
+    color: black;
+}
+
+

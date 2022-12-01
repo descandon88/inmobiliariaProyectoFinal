@@ -1,0 +1,11 @@
+
+.containerCard{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.tituloCards{
+  text-align: center;
+  margin: 10rem;
+}

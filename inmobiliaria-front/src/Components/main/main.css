@@ -1,0 +1,55 @@
+.mainContainer{
+    margin-top: 17rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.containerMainText{
+    width: 50%;
+    margin-left: 27rem;
+}
+
+
+.titleMain{
+    font-size: 5rem;
+    width: 60rem;
+}
+
+.txtMain{
+    color: var(--black);
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    width: 60rem;
+}
+
+.btnMain {
+    background-color: var(--red);
+    text-align: center;
+    font-size: 1.8rem;
+    color:white;
+    height: 6rem;
+    width: 25rem;
+    margin-top: 5rem;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+
+
+.red {
+    color: var(--red);
+    background: none;
+}
+
+.containerMainImage{
+    margin-right: 20rem;
+}
+
+.imgMain{
+    width: 70rem;
+    margin-top: -5rem;
+    border-radius: 10rem;
+}
+
