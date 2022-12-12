@@ -1,39 +1,100 @@
 .inmuebleCardContainer {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 0 27rem;
-    gap:5rem;
-    
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+   /* margin: 0 27rem; */
+   
 } 
+.contRowTwo, .contRowOne {
+  display: flex;
+  flex-direction:row;
+}
+.contRowOne {
+  width: 100%;
+  justify-content: center;
+  gap:5rem;
 
-
-.icono{
-    color: var(--red);
-    margin-right: 1rem;
-    text-align: center;
- }
-
- .bloqueDeCambioDePaginas{
-    margin: 0 27rem;
- }
- .tipoOperacionDetalle{
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 3rem;
- }
- .detalle{
-    margin: 1rem;
-    font-size: 2rem;
- }
- .bloqueDeCambioDePaginas{
-    width: 100rem;
-    height: auto;
- }
- .btnDetalle{
-    background-color: var(--gray);
-    margin-bottom: 5rem;
+}
+.contRowOne {
+  
+     box-shadow: 0px 5px 10px 0px var(--red);    
+     padding: 10rem;        
+   
 }
 
+/* .contRowOne:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px var(--red);
+} */
 
+.contRowTwo {
+  width: 100%;
+  justify-content: center;
+
+}
+
+.icono{
+   color: var(--red);
+   margin-right: 1rem;
+   text-align: center;
+}
+
+.bloqueDeCambioDePaginas{
+   margin: 0 27rem;
+}
+.tipoOperacionDetalle{
+   font-weight: bold;
+   text-transform: uppercase;
+   font-size: 3rem;
+   color: var(--red);
+
+}
+.detalle{
+   margin: 1rem;
+   font-size: 2rem;
+}
+.detallePrecio{
+  font-size:3rem;
+}
+.bloqueDeCambioDePaginas{
+   width: 100rem;
+   height: auto;
+}
+.btnDetalle{
+   /* background-color: var(--gray); */
+   margin-bottom: 5rem;
+
+}
+
+.buscadorReturn {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:5rem;
+  margin-left:5rem;
+  border-radius: 2rem;
+  background-color: var(--red);
+  color: var(--gray);
+  width:20rem;
+}
+
+.iconosP {
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top:1rem;
+}
+.contIconosFa{
+  display:flex;
+  flex-direction: column;
+}
+
+div.contBarrioCiudad>h3{
+  font-size:2.5rem;
+  color: var(--red);
+  font-weight: 470;
+
+}
 
