@@ -1,4 +1,4 @@
-# Inmobiliaria---Proyecto-Final
+# Inmobiliaria - Proyecto Integrador Final
 Proyecto Final del Bootcamp Senpai -  Arreglar página https://inmobiliariarossi.com.uy/
 ## Integrantes:
 <ul>

@@ -1,25 +1,46 @@
-.contFooter{
-    background-color:#F5F5F5 ;
-    border-radius: 10rem 0 0 0;
-    text-align: center;
-
+.contFooter {
+  margin-top: 10rem;
+  background-color: var(--gray);
+  /* border-radius: 10rem 0 0 0; */
 }
-.footer{
+
+.logoFooter{
     display: flex;
-    align-items: center;
-    height: 15rem;
-    justify-content: center;
-    
-    
-}
-.footerList{
-display: flex;
-gap: 20rem;
-list-style: none;
-color: black;
-}
-.spanFooter{
-    color: black;
+    justify-content: start;
+    align-content: center;
+    margin: 0 27rem;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35rem;
+  margin: 0rem 27rem;
+}
 
+.footerList {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: center;
+  gap: 3rem;
+
+  list-style: none;
+  color: var(--black);
+}
+
+.spanFooter {
+  color: black;
+}
+
+.iconoFooter{
+    margin-right: 1rem;
+    color: var(--red);
+}
+
+.copyRight {
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid var(--white);
+}

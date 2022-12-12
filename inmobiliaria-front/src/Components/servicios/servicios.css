@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .services-container {
     display: flex;
@@ -90,3 +91,71 @@ div.li-description > p {
   }
 
 /*---*/
+=======
+.servicesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 10rem 27rem;
+  text-align: center;
+}
+
+.ulCardServicio {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  list-style: none;
+  gap: 4rem;
+  margin-bottom: 6rem;
+}
+
+.liCardServicio {
+  padding: 3rem;
+  /* border: 2px solid var(--gray); */
+  border-radius: 2rem;
+  width: 30rem;
+  box-shadow: 0 1px 1px 0 rgba(53, 53, 53, 0.2), 0 6px 20px 0 rgba(53, 53, 53, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.liCardServicio h3 {
+  padding: 10px 0px;
+  font-size: 2rem;
+}
+
+.liCardServicio {
+  transition: 0.5s;
+  background: white;
+}
+
+.liCardServicio:hover h3 {
+  color: var(--red);
+}
+
+.liCardServicio:hover {
+  transform: scale(1.03);
+  background: #fff;
+}
+
+.liImages {
+  max-width: 90px;
+  max-height: 80px;
+  margin: 0 auto;
+}
+
+.liDescription{
+ padding: 1rem;
+}
+
+.description {
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+>>>>>>> 925ee2dfb18893167460067219b896c7352766b6

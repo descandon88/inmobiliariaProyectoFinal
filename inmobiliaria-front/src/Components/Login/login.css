@@ -1,40 +1,3 @@
-.containerLogin {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.headerLogin {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.titleLogin {
-  font-size: 2.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-span {
-  color: #bd212e;
-}
-
-/* .line{
-    height: .5rem;
-    width: 3rem;
-    background-color: #BD212E;
-    margin: 0 auto;
-} */
-
-/* .form{
-    width: 30%;
-    padding: 4rem;
-    background-color: #fff;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 1rem;
-} */
 
 .containerLogin {
   display: flex;
@@ -48,37 +11,50 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: transparent;
-  border: .1rem solid #a2a2a2;
-  border-radius: 20px;
-  padding: 80px 60px;
-  margin-top: 100px;
+  
+  padding: 8rem 6rem;
+  margin-top: 10rem;
+  background-color: var(--white);
+  border-radius: 2rem;
+
+  box-shadow: 0 1px 1px 0 rgba(53, 53, 53, 0.2), 0 6px 20px 0 rgba(53, 53, 53, 0.2);
+}
+
+.titleForm{
+  padding: 2rem;
 }
 
 .inputForm {
-  padding: 10px;
-  width: 400px;
-  height: 50px;
-  margin: 20px;
+  padding: 2rem;
+  width: 40rem;
+  height: 5rem;
+  margin: 2rem;
   border: none;
-  background: transparent;
-  border-bottom: 2px solid #1c1a1b;
+  background: var(--gray);
+  border-radius: 2rem;
 }
 
 input[type="text"],
 [type="password"],
 [type="email"] {
-  font-size: 16px;
-  color: #1c1a1b;
+  font-size: 1.6rem;
 }
 
+
 .btnLogin {
-  background: #1c1a1b;
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  background-color: var(--red);
+  color: var(--white);
+  height: 5rem;
+  width: 20rem;
   border: none;
-  color: #fff;
-  width: 400px;
-  height: 50px;
-  border-radius: 2rem;
+  border-radius: 3rem;
   cursor: pointer;
-  margin-top: 2rem;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.btnLogin:hover {
+  background-color: #a4010f;
 }

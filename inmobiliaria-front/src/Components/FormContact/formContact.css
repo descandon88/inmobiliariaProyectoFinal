@@ -1,0 +1,22 @@
+textarea{
+    resize:both;
+    height: 5rem;
+    min-height: 10rem;
+    max-height: 20rem;
+}
+
+
+.formContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 8rem 6rem;
+
+    background-color: var(--white);
+    border-radius: 2rem;
+  
+    box-shadow: 0 1px 1px 0 rgba(53, 53, 53, 0.2), 0 6px 20px 0 rgba(53, 53, 53, 0.2);
+    margin-bottom: 10rem;
+}

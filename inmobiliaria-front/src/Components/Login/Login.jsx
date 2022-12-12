@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { login } from "../../Api/Rule_user";
+
+
+
 import './login.css'
 
 function Login() {
@@ -31,18 +34,7 @@ function Login() {
   return (
     <div className="containerLogin">
 
-      <header className="headerLogin">
-        <a href="/">
-          <img className="logo" src="public\assets\logo.jpeg" alt="logo" />
-        </a>
-      </header>
-
-      {/* <h1 className="titleLogin">
-        Bienvenido al 
-         <span> área administrativa</span>
-      </h1> */}
-
-      {/* <div className="line"></div> */}
+      
 
       <form className="form" onSubmit={handleSubmit}>
         <h2 className="titleForm">Iniciar sesión</h2>

@@ -1,0 +1,8 @@
+.buscadorbarContainer {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin: 8rem;
+    margin-bottom: 8rem;
+
+}

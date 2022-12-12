@@ -1,0 +1,21 @@
+
+
+.titleAdmin{
+    background-image: url('assets/bannerHouse.png');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22rem;
+    width: 100%;
+    padding: 4rem;
+    border-radius: 2rem;
+    
+}
+
+
+.iconHome{
+    width: 200rem;
+}
+
+

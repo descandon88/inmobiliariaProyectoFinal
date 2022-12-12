@@ -1,0 +1,39 @@
+.inmuebleCardContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 27rem;
+    gap:5rem;
+    
+} 
+
+
+.icono{
+    color: var(--red);
+    margin-right: 1rem;
+    text-align: center;
+ }
+
+ .bloqueDeCambioDePaginas{
+    margin: 0 27rem;
+ }
+ .tipoOperacionDetalle{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3rem;
+ }
+ .detalle{
+    margin: 1rem;
+    font-size: 2rem;
+ }
+ .bloqueDeCambioDePaginas{
+    width: 100rem;
+    height: auto;
+ }
+ .btnDetalle{
+    background-color: var(--gray);
+    margin-bottom: 5rem;
+}
+
+
+

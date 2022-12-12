@@ -25,7 +25,11 @@ let ObjServicios = [
         id: "3",
         nombre: "Tasaciones",
         descripcion: "Tasamos el valor de tu propiedad, acorde al valor del mercado",
+<<<<<<< HEAD
         img: "../../../../public/images/tasaciones.png",
+=======
+        img: "../../../../public/images/hipoteca.png",
+>>>>>>> 925ee2dfb18893167460067219b896c7352766b6
     }
 ]
 

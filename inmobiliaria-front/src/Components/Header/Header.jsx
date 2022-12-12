@@ -6,20 +6,20 @@ function Header() {
   return (
     <div className='header'>
         
-            <a href="/"><img className='logo' src="public\assets\logo.jpeg" alt="logo" /></a> 
+            <a href="/"><img className='logo' src="/assets/logoSinFondo.png" alt="logo" /></a> 
         
         <nav className='nav'>
             <ul className='navList'>
-                <li className='liHeader'><a className='ancla' href="">Inicio</a></li>
-                <li className='liHeader'><a className='ancla' href="">Empresa</a></li>
-                <li className='liHeader'><a className='ancla' href="#servicios">Servicios</a></li>
-                <li className='liHeader'><a className='ancla' href="">Estudio</a></li>
+                <li className='liHeader'><a className='ancla' href="/">Inicio</a></li>
+                <li className='liHeader'><Link className='ancla' to={"/empresa"}>Empresa</Link></li>
+                <li className='liHeader'><a className='ancla' href="/#servicios">Servicios</a></li>
+                <li className='liHeader'><Link className='ancla' to={"/estudio"}>Estudio</Link></li>
                 <li className='liHeader'><a className='ancla' href="#contacto">Contacto</a></li>
             </ul>
         </nav>
 
-        <Link to={"/login"}>
-          <button className='btnHeader'>Iniciar sesión</button>
+        <Link to={"/pageLogin"}>
+          <button className='btnGray'>Iniciar sesión</button>
         </Link>
     </div>
   )
