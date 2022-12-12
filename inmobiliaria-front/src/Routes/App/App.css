@@ -1,0 +1,88 @@
+.containerSectInmuebles {
+  padding: 0.1rem;
+  /* background-color: var(--gray); */
+}
+
+.containerCard {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 27rem;
+  gap: 4rem;
+}
+
+.containerTitleSection {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 10rem 27rem;
+  text-align: center;
+}
+
+.secTitle {
+  font-size: 3.2rem;
+  margin: 2rem;
+}
+
+.secSubtitle {
+  font-weight: 600;
+  color: var(--red);
+  text-align: center;
+}
+
+.servicesDescription {
+  font-size: 1.6rem;
+}
+
+.contBtnApp {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.btnVerMas{
+  margin: 0;
+}
+
+
+.imgApp{
+    background-image: url("public/assets/houseInterior.jpg");
+    height: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerSectContact{
+  margin: 0 27rem;
+}
+
+.contFormMap{
+display: flex;
+
+align-items: center;
+width: 100%;
+
+
+
+}
+
+.containerFormContact{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+
+.imgContact{
+  width: 30%;
+  
+  
+}
+.contMap{
+  width:35%;
+
+}
+

@@ -1,0 +1,60 @@
+
+.mainContainer{
+    background-image: url("public/assets/banner3.png");
+    height: 70rem;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: 2rem;
+}
+
+.containerMainText{
+    width: 50%;
+    margin-left: 27rem;
+    padding-top: 16rem;
+}
+
+
+.titleMain{
+    font-size: 5rem;
+    width: 60rem;
+}
+
+.txtMain{
+    color: var(--black);
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    width: 60rem;
+}
+
+.btnMain {
+    background-color: var(--red);
+    text-align: center;
+    /* font-size: 1.8rem; */
+    color:white;
+    height: 6rem;
+    width: 25rem;
+    margin-top: 5rem;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btnMain:hover{
+    background-color: #a4010f;
+}
+.contIconos{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: fixed;
+    left: 95%;
+}
+.iconoStatic{
+    width: 4rem;
+}
+
+

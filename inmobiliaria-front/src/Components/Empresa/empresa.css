@@ -1,0 +1,22 @@
+.containerEmpresa{
+display: flex;
+margin-left:  27rem;
+gap: 5rem;
+}
+.imagenEmpresa{
+    width: 60rem;
+    border-radius: 3rem;
+}
+.containerImagen{
+    width: 40%;
+    height: auto;
+
+}
+.containerCont{
+width: 50%;
+height: auto;
+}
+.titulo{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
