@@ -9,7 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "framer-motion": "^7.6.19",
+    "@chakra-ui/icons": "^2.0.13",
+    "@chakra-ui/react": "^2.4.3",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@formspree/react": "^2.4.1",
+    "axios": "^1.2.1",
+    "framer-motion": "^7.7.0",
     "fs": "^0.0.1-security",
     "react": "^18.2.0",
     "react-bootstrap-range-slider": "^3.0.8",

@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-.mainContainer{
-    margin-top: 17rem;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-=======
 
 .mainContainer{
     background-image: url("public/assets/banner3.png");
@@ -15,16 +8,12 @@
     background-size: cover;
 
     margin-top: 2rem;
->>>>>>> 925ee2dfb18893167460067219b896c7352766b6
 }
 
 .containerMainText{
     width: 50%;
     margin-left: 27rem;
-<<<<<<< HEAD
-=======
     padding-top: 16rem;
->>>>>>> 925ee2dfb18893167460067219b896c7352766b6
 }
 
 
@@ -43,11 +32,7 @@
 .btnMain {
     background-color: var(--red);
     text-align: center;
-<<<<<<< HEAD
-    font-size: 1.8rem;
-=======
     /* font-size: 1.8rem; */
->>>>>>> 925ee2dfb18893167460067219b896c7352766b6
     color:white;
     height: 6rem;
     width: 25rem;
@@ -55,27 +40,6 @@
     border: none;
     border-radius: 3rem;
     cursor: pointer;
-<<<<<<< HEAD
-}
-
-
-
-.red {
-    color: var(--red);
-    background: none;
-}
-
-.containerMainImage{
-    margin-right: 20rem;
-}
-
-.imgMain{
-    width: 70rem;
-    margin-top: -5rem;
-    border-radius: 10rem;
-}
-
-=======
     transition: 0.5s;
 }
 
@@ -94,4 +58,3 @@
 }
 
 
->>>>>>> 925ee2dfb18893167460067219b896c7352766b6

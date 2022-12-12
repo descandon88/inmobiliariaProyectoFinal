@@ -1,6 +1,5 @@
 import API from "./Rule_Api";
 
-<<<<<<< HEAD
 export const consultarUsuarios = async () => {
     const url = "/api/user/list";
     return await API.get(url)
@@ -12,8 +11,6 @@ export const consultarUsuarios = async () => {
         throw error.response.data.error || "Error procesando la solicitud";
       });
   };
-=======
->>>>>>> 925ee2dfb18893167460067219b896c7352766b6
 
 export const login = async (usuarios) => {
   const url = "/api/user/login";
@@ -32,8 +29,6 @@ export const login = async (usuarios) => {
 export const registrarUsuario = async (usuarios) => {
   const url = "/api/user/register";
   return await API.post(url, usuarios)
-<<<<<<< HEAD
-=======
   .then((response) => {
     return response.data;
   })
@@ -46,7 +41,6 @@ export const registrarUsuario = async (usuarios) => {
 export const infoUser = async () => {
   const url = "/api/user/infoUser";
   return await API.get(url)
->>>>>>> 925ee2dfb18893167460067219b896c7352766b6
     .then((response) => {
       return response.data;
     })
@@ -55,22 +49,6 @@ export const infoUser = async () => {
       throw error.response.data.error || "Error procesando la solicitud";
     });
 };
-
-<<<<<<< HEAD
-
-=======
-export const consultarUsuarios = async () => {
-    const url = "/api/user/list";
-    return await API.get(url)
-      .then((response) => {
-        return response.data;
-      })
-      .catch((error) => {
-        console.log(error);
-        throw error.response.data.error || "Error procesando la solicitud";
-      });
-  };
-  
 
   export const eliminarUsuarios = async (id_usuario) => {
     const url = `/api/user/deleteUser/${id_usuario}`;
@@ -84,4 +62,3 @@ export const consultarUsuarios = async () => {
         throw error.response.data.error || "Error procesando la solicitud";
       });
   };
->>>>>>> 925ee2dfb18893167460067219b896c7352766b6
