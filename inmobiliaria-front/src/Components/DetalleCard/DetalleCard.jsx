@@ -23,6 +23,7 @@ function DetalleCard() {
    
 
         useEffect(()=>{
+          
             buscarById(id_inmueble)
           .then((response)=> {
               setDatosIniciales(response);
@@ -30,21 +31,8 @@ function DetalleCard() {
           .catch((error)=>{
               alert(error);
           });
-          },[]);
+          },[id_inmueble]); // el vector es un array de dependencias. 
     
-    // const params = useParams();
-
-    // const navigateToContacts = () => {
-        
-    //   navigate(+1);
-     
-    //     };   
-    //     const handleNavigation = () => {
-    //       navigate("/BuscadorPage/detalleInmueble/28");
-    //       console.log('id: es ',datosIniciales[0].id_inmueble+1)
-    //     };
-        
-
     const inmuebleDetail = datosIniciales?.filter((arrayDatos) => {
             return arrayDatos.id_inmueble == id_inmueble;
           });
@@ -63,7 +51,6 @@ function DetalleCard() {
 
     <>
          <div><Header/></div>
-     
         <div className="inmuebleCardContainer">
         <div className="contRowOne">
        <div className='contImagenDetalle'>
@@ -121,19 +108,25 @@ function DetalleCard() {
         <Link className='btnDetalle'to={`/BuscadorPage`}> 
         <div className="buscadorReturn"><p>Volver al Buscador</p> </div>
         </Link>
+        {/* <div className="bloqueDeCambioDePaginas">
+
+          {
+            datosIniciales.length!=0 && <Link to={`/BuscadorPage/detalleInmueble/${datosIniciales[0].id_inmueble+1}`}><p>Siguiente</p> </Link> 
+          }
+
+        </div> */}
+
         </div>
         </div>
        
        
        
-        <div className="bloqueDeCambioDePaginas">
         {/* <Link to={`/BuscadorPage`}><MdScreenSearchDesktop className="icono"/><p>Regresar al Buscador</p></Link> */}
         
-        {/* // <Link to={`/BuscadorPage/detalleInmueble/${datosIniciales[0].id_inmueble+1}`}><p>Siguiente</p> </Link>  */}
+  
         {/* { datosIniciales.length!=0  && 
         <button onClick={handleNavigation}>Siguiente</button> } */}
        
-        </div>
        
         
 
