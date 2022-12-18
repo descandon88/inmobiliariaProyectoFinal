@@ -18,7 +18,7 @@ app.use(morgan("dev"));
 app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(cors()); // esto se documenta
-app.use(cors({origin:`${process.env.CLIENT_URL}`}));
+// app.use(cors({origin:`${process.env.CLIENT_URL}`}));
 
 
 app.use("/api", userRoutes);

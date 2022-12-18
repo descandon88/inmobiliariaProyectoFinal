@@ -40,6 +40,7 @@
     flex-direction:row;
 }
 
+/*Tamaño de pantalla */
 .contCardDisplayInmuebles {
     width: 22%;
     background-color: var(--white);
@@ -52,6 +53,28 @@
     list-style: none;
      
 }
+
+/*Tamaño de pantalla @media query*/
+@media (max-width: 1370px ) and (min-width:801px ) {
+    .contCardDisplayInmuebles {
+        width: 55vh;
+
+    }
+  }
+@media (max-width: 800px ) and (min-width:361px ) {
+    .contCardDisplayInmuebles {
+        width: 45vh;
+
+    }
+}
+
+/*responsive 360 x 740*/  
+  @media (max-width: 360px) {
+    .contCardDisplayInmuebles {
+        width: 40vh;
+
+    }
+  }  
 
 .iconosP {
     display:flex;
